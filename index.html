@@ -38,6 +38,7 @@ body {
     transform-origin: top;
     transition: transform 1s ease;
     z-index: 0
+     pointer-events: none;
 }
 
 /* Bouton OPEN */
@@ -55,6 +56,13 @@ body {
     cursor: pointer;
     z-index: 4;
 }
+.open-btn {
+    position: relative;
+    z-index: 4;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
 
 /* CARTE */
 .card {
